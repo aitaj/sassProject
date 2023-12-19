@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: Poppins;
+}
+h1{
+    color: $primary;
+    margin-bottom: $base-margin;
+}
+button{
+    background-color: $primary;
+    border: none;
+    padding: $base-padding;
+    color: $secondary;
+    border-radius: $base-border-radius;
+
+}

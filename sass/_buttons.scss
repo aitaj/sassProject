@@ -1,0 +1,22 @@
+.error{
+    color: $danger;
+    border-width: $base-border-thinkness;
+    border-color: $danger;
+    border-style: solid;
+    padding: $base-padding;
+    border-radius: $base-border-radius;
+    margin: $base-margin;
+}
+.notification{
+    color: $warning;
+    border-width: $base-border-thinkness;
+    border-color: $warning;
+    border-style: solid;
+    padding: $base-padding;
+    border-radius: $base-border-radius;
+    margin: $base-margin;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}

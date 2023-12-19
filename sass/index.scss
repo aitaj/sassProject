@@ -1,0 +1,74 @@
+//imports
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,400&family=Roboto:wght@300;500&display=swap');
+
+
+//@import url(./_variables.scss);
+//@import url(./_base.scss);
+//@import url(./_buttons.scss);
+//h1+a[href="#"]{This is a}
+a{
+    text-decoration: none;
+
+}
+body{
+    font-family: Poppins;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    
+}
+.logo{
+    color: aliceblue;
+}
+nav a{
+    color: azure;
+    margin-right: 10px;
+}
+#get-started{
+    background-color: rgb(21, 20, 20);
+    padding: 50px 0px;
+    h1,p{
+color: azure;
+text-align: center;
+    }
+    p{
+        font-weight: 200;
+    }
+}
+#header{
+    background-color:  rgb(21, 20, 20);
+}
+.head{
+display: flex;
+justify-content: space-between;
+height: 30px;
+}
+.buttons{
+    display: flex;
+padding-left: 30px;
+    a{
+        padding: 10px 25px;
+        border-radius: 10px;
+        margin: 10px;
+    &.get-started{
+    background-color: blue;
+    color: azure;
+     }
+     &.learn-more{
+        background-color:azure ;
+        color: blue;
+     }
+    }
+    
+
+}
+.get-start{
+    width: 40%;
+    margin: auto;
+}
