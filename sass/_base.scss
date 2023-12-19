@@ -1,21 +1,23 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-body{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
-    font-family: Poppins;
+* {
+  padding: 0;
+  margin: 0;
 }
-h1{
-    color: $primary;
-    margin-bottom: $base-margin;
-}
-button{
-    background-color: $primary;
-    border: none;
-    padding: $base-padding;
-    color: $secondary;
-    border-radius: $base-border-radius;
 
+body {
+  font-family: Poppins;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
